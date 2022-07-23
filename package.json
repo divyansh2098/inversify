@@ -1,0 +1,20 @@
+{
+  "name": "inversify",
+  "version": "1.0.0",
+  "description": "Trying out concepts of inversify - a dependency inversion package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divyansh2098/inversify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/divyansh2098/inversify/issues"
+  },
+  "homepage": "https://github.com/divyansh2098/inversify#readme"
+}
