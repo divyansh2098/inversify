@@ -10,6 +10,9 @@ export class BayernMunich {
     console.log(optionalText)
     this.optionalText = optionalText
   }
+  printOptionalText = () => {
+    console.log(this.optionalText)
+  }
 }
 
 @injectable()
@@ -26,5 +29,6 @@ export class ChampionsLeague {
     @inject(TYPES.REAL_MADRID) private realMadrid: RealMadrid
   ) {
     console.log("UCL Constructor Called")
+    console.log(this.bayernMunich.printOptionalText())
   }
 }
